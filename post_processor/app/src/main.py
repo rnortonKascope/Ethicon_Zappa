@@ -31,9 +31,7 @@ class Main():
 
 
 		ready = True
-		if not debug:
-			ready = messagebox.askokcancel('Startup Conditions', 'Please ensure that:\n 1. The PUMP is ON\n 2. The TUBE is removed from the PINCH VALVE\n\nOnce these conditions are met, you may close this window.')
-			
+		
 		if ready:
 
 			print('[ OKAY ] Main class initialized.')
