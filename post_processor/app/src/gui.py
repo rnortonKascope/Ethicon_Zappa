@@ -64,7 +64,7 @@ class GUI():
 		# top.minsize(130, 10)
 		# top.maxsize(5150, 1071)
 		# top.resizable(1,  1)
-		top.title("CPB Loop Controller")
+		top.title("CPB Loop Post Processor")
 		top.configure(background="#d9d9d9")
 		top.configure(highlightbackground="#d9d9d9")
 		top.configure(highlightcolor="black")

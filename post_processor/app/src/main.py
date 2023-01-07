@@ -31,7 +31,7 @@ class Main():
 
 
 		ready = True
-		
+
 		if ready:
 
 			print('[ OKAY ] Main class initialized.')
@@ -46,7 +46,6 @@ class Main():
 		else:
 			print('[ WARN ] User rejected startup conditions. Exiting.')
 
-		stopAllThreads()
 		e.closeAllFiles()
 
 
